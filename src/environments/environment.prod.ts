@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'http://localhost:4000/api'
+  baseUrl: 'https://deploy-clinica-34svhfdos-cohet3.vercel.app/api'
 };
