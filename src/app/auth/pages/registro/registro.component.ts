@@ -13,10 +13,10 @@ import Swal from 'sweetalert2';
 export class RegistroComponent  {
 
   miFormulario: FormGroup = this.fb.group({
-    name:    ['Danny', [Validators.required ]],
-    telefono:['653130191', [Validators.required ]],
-    email:   ['danny@gmail.com', [Validators.required, Validators.email ]],
-    password:['1234567', [Validators.required, Validators.minLength(6) ]],
+    name:    ['', [Validators.required ]],
+    telefono:['', [Validators.required ]],
+    email:   ['', [Validators.required, Validators.email ]],
+    password:['', [Validators.required, Validators.minLength(6) ]],
   }
 )
   constructor( private fb: FormBuilder,
